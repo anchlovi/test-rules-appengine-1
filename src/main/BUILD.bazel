@@ -4,7 +4,7 @@ appengine_war(
     name = "app",
     jars = [
         "//src/main/java/com/test/pcka/services:servicesA",
-        "//src/main/java/com/test/pckb/services:agg=environment",
+        "//src/main/java/com/test/pckb/services:agg=services",
         ],
     data = glob(["webapp/**"]),
     data_path = "/webapp",
